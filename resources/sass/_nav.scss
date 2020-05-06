@@ -16,7 +16,7 @@
     .hamburger{
         cursor: pointer;
         .line{
-            height:2px;
+            height:1.5px;
             width:30px;
             background:white;
             margin:5px
@@ -28,7 +28,8 @@
     .navLogo{
         // background-color: black;
         width:15%;
-        height:1rem;
+        height:1.1rem;
+        padding-left:1rem;
         
     }
     .linkLogo{
@@ -51,6 +52,7 @@
         letter-spacing: 1px;
         color:white;
         cursor: pointer;
+        font-size:0.9rem;
     }
 
 }
@@ -116,6 +118,7 @@
         padding:10rem 0;
         li{
             list-style:none;
+            text-align: center;
             a{
                 text-decoration:none;
                 // color:rgba(0, 0, 0, 0.884);
@@ -129,5 +132,266 @@
                 }
             }
         }
+    }
+}
+@media (min-width:0px) and (max-width:370px){
+    .navBar{
+        .navLogo{
+           width:40%;
+           height:1.1rem;
+           padding-left:1rem;
+        }
+        .hamburger{
+            .line{
+                height:1px;
+            }
+        }
+        .navContactLink{
+            font-size:0.8rem;
+        }
+     
+    }
+     .navBar > div{
+      padding:0 0px;
+    }
+   
+}
+@media (min-width: 371px) and (max-width: 500px) {
+     
+  .navBar{
+      .navLogo{
+         width:40%;
+         height:1.1rem;
+         padding-left:1rem;
+      }
+      .hamburger{
+          .line{
+              height:1px;
+          }
+      }
+      .navContactLink{
+          font-size:0.8rem;
+      }
+   
+  }
+   .navBar > div{
+    padding:0 0px;
+  }
+  .navigation-menu{
+      width:70%;
+  }
+}
+@media (min-width: 501px) and (max-width: 540px) {
+    .navBar{
+        .navLogo{
+           width:40%;
+           height:1.2rem;
+        }
+        .hamburger{
+            .line{
+                height:1px;
+            }
+        }
+        .navContactLink{
+            font-size:0.8rem;
+        }
+     
+    }
+     .navBar > div{
+      padding:0 0px;
+    }
+    .navigation-menu{
+        width:70%;
+    }
+  
+}
+@media (min-width: 541px) and (max-width: 767px) {
+    .navBar{
+        .navLogo{
+           width:34%;
+           height:1.2rem;
+        }
+        .hamburger{
+            .line{
+                height:1px;
+            }
+        }
+        .navContactLink{
+            font-size:0.8rem;
+        }
+     
+    }
+     .navBar > div{
+      padding:0 0px;
+    }
+    .navigation-menu{
+        width:70%;
+    }
+  
+}
+  
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 900px) {
+    .navBar{
+        .navLogo{
+           width:25%;
+           height:1.1rem;
+        }
+        .hamburger{
+            .line{
+                height:1px;
+            }
+        }
+        .navContactLink{
+            font-size:0.8rem;
+        }
+     
+    }
+     .navBar > div{
+      padding:0 0px;
+    }
+    .navigation-menu{
+        width:70%;
+    }
+}
+@media (min-width: 901px) and (max-width: 991px) {
+    .navBar{
+        .navLogo{
+           width:23%;
+           height:1.1rem;
+        }
+        .hamburger{
+            .line{
+                height:1px;
+            }
+        }
+        .navContactLink{
+            font-size:0.8rem;
+        }
+     
+    }
+     .navBar > div{
+      padding:0 0px;
+    }
+    .navigation-menu{
+        width:70%;
+    }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1099px) {
+    .navBar{
+        .navLogo{
+           width:20%;
+           height:1.1rem;
+        }
+        .hamburger{
+            .line{
+                height:1px;
+            }
+        }
+        .navContactLink{
+            font-size:0.8rem;
+        }
+     
+    }
+     .navBar > div{
+      padding:0 0px;
+    }
+    .navigation-menu{
+        width:50%;
+    }
+}
+@media (min-width: 1100px) and (max-width: 1119px) {
+    .navBar{
+        .navLogo{
+           width:19%;
+           height:1.3rem;
+        }
+        .hamburger{
+            .line{
+                height:1px;
+            }
+        }
+        .navContactLink{
+            font-size:0.8rem;
+        }
+     
+    }
+     .navBar > div{
+      padding:0 0px;
+    }
+    .navigation-menu{
+        width:50%;
+    }
+}
+@media (min-width: 1120px) and (max-width: 1199px) {
+    .navBar{
+        .navLogo{
+           width:17%;
+           height:1.3rem;
+        }
+        .hamburger{
+            .line{
+                height:1px;
+            }
+        }
+        .navContactLink{
+            font-size:0.8rem;
+        }
+     
+    }
+     .navBar > div{
+      padding:0 0px;
+    }
+    .navigation-menu{
+        width:50%;
+    }
+}
+  
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .navBar{
+        .navLogo{
+           width:15%;
+           height:1.3rem;
+        }
+        .hamburger{
+            .line{
+                height:1px;
+            }
+        }
+        .navContactLink{
+            font-size:0.8rem;
+        }
+     
+    }
+     .navBar > div{
+      padding:0 0px;
+    }
+    .navigation-menu{
+        width:40%;
+    }
+ }
+@media (min-width: 1400px) and (max-width: 1500px) {
+    .navBar{
+        .navLogo{
+           width:15%;
+           height:1.5rem;
+        }
+        .hamburger{
+            .line{
+                height:1px;
+            }
+        }
+        .navContactLink{
+            font-size:0.8rem;
+        }
+     
+    }
+     .navBar > div{
+      padding:0 0px;
+    }
+    .navigation-menu{
+        width:40%;
     }
 }
