@@ -1,0 +1,133 @@
+.navBar{
+    position:absolute;
+    top:0;
+    left:0;
+    height:7vh;
+    z-index:80;
+    width:100%;
+    padding:0 30px;
+    // font-size:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    // font-family: 'Playfair Display', serif;
+    font-family: 'Merriweather', serif;
+    background-color:rgba(0, 0, 0, 0.842);
+    .hamburger{
+        cursor: pointer;
+        .line{
+            height:2px;
+            width:30px;
+            background:white;
+            margin:5px
+            
+        }
+    }
+
+   
+    .navLogo{
+        // background-color: black;
+        width:15%;
+        height:1rem;
+        
+    }
+    .linkLogo{
+        // letter-spacing:4px;
+        // font-weight:700;
+        // color:white;
+        // background-color:black;
+        text-decoration:none;
+        height:1rem;
+    }
+    .logo{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    
+    }
+
+    .navContactLink{
+        text-decoration: none;
+        letter-spacing: 1px;
+        color:white;
+        cursor: pointer;
+    }
+
+}
+.navBar > div{
+    padding:0 20px;
+}
+.otherPagesNav{
+    height:7vh;
+    width:100%; 
+    background-color:rgba(0, 0, 0, 0.315);
+}
+
+.navigation-menu-wrapper{
+    position: fixed;
+    top:0;
+    right:0;
+    height:100vh;
+    width:100%;
+    background:rgba(0, 0, 0, 0.863);
+    z-index:10;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    opacity:0;
+    visibility: hidden;
+}
+.navigation-menu{
+    // position:fixed;
+    top:0;
+    right:0;
+    z-index:10;
+    height:100vh;
+    width:30%;
+    // background-color:rgba(0, 0, 0, 0.712);
+    background-color:rgb(0,0,0);
+    transform:translate(100%, 0);
+
+    .navigation-close{
+        float:right;
+        cursor: pointer;
+        text-transform: uppercase;
+        color:white;
+        padding-top:1rem;
+        padding-right:0.8rem;
+        &:hover{
+            color:orangered;
+        }
+    }
+    
+
+    .navigation-bg{
+        position: absolute;
+        top:0;
+        right:0;
+        height:100%;
+    }
+
+    ul{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction:column;
+        padding:10rem 0;
+        li{
+            list-style:none;
+            a{
+                text-decoration:none;
+                // color:rgba(0, 0, 0, 0.884);
+                color:white;
+                font-size:1.5rem;
+                font-weight:700;
+                letter-spacing: 1px;
+                line-height:2;
+                &:hover{
+                    color:orangered;
+                }
+            }
+        }
+    }
+}

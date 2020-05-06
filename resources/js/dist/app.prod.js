@@ -1,0 +1,1 @@
+"use strict";require("./bootstrap"),require("./admin"),require("./barba-animations.js/pages"),require("./navigation-menu");
