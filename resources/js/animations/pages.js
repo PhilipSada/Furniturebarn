@@ -1,5 +1,6 @@
 // page animations
 const initialPageAnimation = ()=>{
+  if(window.screen.width > 768){
     let tl = gsap.timeline()
   
     tl.fromTo(
@@ -72,6 +73,8 @@ const initialPageAnimation = ()=>{
         
     )
   }
+    
+  }
 const delay = (n)=>{
   return new Promise((done)=>{
       setTimeout(()=>{
@@ -102,49 +105,7 @@ const delay = (n)=>{
      })
 }
  const livingRoomEnter = ()=>{
-     let timeline = gsap.timeline();
-     timeline.fromTo(
-        ".hamburger",
-        {
-          x: -200,
-          opacity: 0,
-        },
-        {
-          x: 0,
-          opacity: 1,
-          delay: 0.5,
-          duration: 1.3,
-        }
-    )
-        .fromTo(
-          ".navContact",
-          {
-            x: 200,
-            opacity: 0,
-          },
-          {
-            x: 0,
-            opacity: 1,
-            delay: 0.5,
-            duration: 1.3,
-          },
-          ">-1.8"
-    )
-    .fromTo('.living-room-hero-text h4', {
-        opacity:0,
-        y:20
-     },
-     {  
-        y:0,
-        opacity:1,
-        duration:.4,
-        // stagger:.2,
-        ease:'power0.easeNone'
-
-
-     })
- }
- const contactEnter = ()=>{
+   if(window.screen.width > 768){
     let timeline = gsap.timeline();
     timeline.fromTo(
        ".hamburger",
@@ -173,8 +134,57 @@ const delay = (n)=>{
          },
          ">-1.8"
    )
+   .fromTo('.living-room-hero-text h4', {
+       opacity:0,
+       y:20
+    },
+    {  
+       y:0,
+       opacity:1,
+       duration:.4,
+       // stagger:.2,
+       ease:'power0.easeNone'
+
+
+    })
+   }
+    
+ }
+ const contactEnter = ()=>{
+   if(window.screen.width > 768){
+    let timeline = gsap.timeline();
+    timeline.fromTo(
+       ".hamburger",
+       {
+         x: -200,
+         opacity: 0,
+       },
+       {
+         x: 0,
+         opacity: 1,
+         delay: 0.5,
+         duration: 1.3,
+       }
+   )
+       .fromTo(
+         ".navContact",
+         {
+           x: 200,
+           opacity: 0,
+         },
+         {
+           x: 0,
+           opacity: 1,
+           delay: 0.5,
+           duration: 1.3,
+         },
+         ">-1.8"
+   )
+   }
+   
  }
  const diningRoomEnter = ()=>{
+   if(window.screen.width > 768){
     let timeline = gsap.timeline();
     timeline.fromTo(
        ".hamburger",
@@ -215,8 +225,11 @@ const delay = (n)=>{
 
 
  })
+   }
+    
  }
  const bedroomEnter = ()=>{
+   if(window.screen.width > 768){
     let timeline = gsap.timeline();
     timeline.fromTo(
        ".hamburger",
@@ -257,8 +270,11 @@ const delay = (n)=>{
 
 
  })
+   }
+    
  }
  const singleProductEnter = ()=>{
+   if(window.screen.width > 768){
     let timeline = gsap.timeline();
     timeline.fromTo(
        ".hamburger",
@@ -287,8 +303,11 @@ const delay = (n)=>{
          },
          ">-1.8"
    )
+   }
+    
  }
  const emailConfirmationEnter = ()=>{
+   if(window.screen.width > 768){
     let timeline = gsap.timeline();
     timeline.fromTo(
        ".hamburger",
@@ -317,8 +336,11 @@ const delay = (n)=>{
          },
          ">-1.8"
    )
+   }
+    
  }
  const faqsEnter = ()=>{
+   if(window.screen.width > 768){
     let timeline = gsap.timeline();
     timeline.fromTo(
        ".hamburger",
@@ -347,6 +369,8 @@ const delay = (n)=>{
          },
          ">-1.8"
    )
+   }
+   
  }
  //Scroll Magic Animation
  const runHomeScrollAnimation = ()=>{

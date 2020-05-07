@@ -12395,12 +12395,13 @@ body {
 
 @media (min-width: 0px) and (max-width: 370px) {
   .navBar {
-    padding: 0 10px;
+    padding: 0 0px;
   }
 
   .navBar .navLogo {
-    width: 49%;
+    width: 45%;
     height: 1.1rem;
+    padding-left: 1rem;
   }
 
   .navBar .hamburger .line {
@@ -12413,11 +12414,11 @@ body {
   }
 
   .navBar > div {
-    padding: 0 0px;
+    padding: 0 4px;
   }
 
   .navigation-menu {
-    width: 60%;
+    width: 80%;
   }
 
   .navigation-menu ul {
@@ -13957,6 +13958,11 @@ body {
 }
 
 @media (min-width: 0px) and (max-width: 370px) {
+  .faq-container {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
   .faq-title {
     font-size: 1.1rem;
   }
@@ -14067,6 +14073,10 @@ body {
 }
 
 @media (min-width: 0px) and (max-width: 370px) {
+  .contact-container {
+    margin-right: 2rem;
+  }
+
   .contact-submit {
     font-size: 0.7rem;
     padding: 0.5rem 2rem;

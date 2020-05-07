@@ -38106,51 +38106,53 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 // page animations
 var initialPageAnimation = function initialPageAnimation() {
-  var tl = gsap.timeline();
-  tl.fromTo(".hamburger", {
-    x: -200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }).fromTo(".navContact", {
-    x: 200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }, ">-1.8").fromTo(".hero-text", {
-    x: 0,
-    y: 100,
-    opacity: 0
-  }, {
-    x: 0,
-    y: 0,
-    opacity: 1,
-    duration: 1.2
-  }).fromTo(".additional-hero-text", {
-    x: 0,
-    y: 100,
-    opacity: 0
-  }, {
-    x: 0,
-    y: 0,
-    opacity: 1,
-    duration: 1.2
-  }).fromTo(".social-icons", {
-    x: 0,
-    y: 100,
-    opacity: 0
-  }, {
-    x: 0,
-    y: 0,
-    opacity: 1,
-    duration: 1.2
-  });
+  if (window.screen.width > 768) {
+    var tl = gsap.timeline();
+    tl.fromTo(".hamburger", {
+      x: -200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }).fromTo(".navContact", {
+      x: 200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }, ">-1.8").fromTo(".hero-text", {
+      x: 0,
+      y: 100,
+      opacity: 0
+    }, {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      duration: 1.2
+    }).fromTo(".additional-hero-text", {
+      x: 0,
+      y: 100,
+      opacity: 0
+    }, {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      duration: 1.2
+    }).fromTo(".social-icons", {
+      x: 0,
+      y: 100,
+      opacity: 0
+    }, {
+      x: 0,
+      y: 0,
+      opacity: 1,
+      duration: 1.2
+    });
+  }
 };
 
 var delay = function delay(n) {
@@ -38182,177 +38184,191 @@ var loadingLeave = function loadingLeave() {
 };
 
 var livingRoomEnter = function livingRoomEnter() {
-  var timeline = gsap.timeline();
-  timeline.fromTo(".hamburger", {
-    x: -200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }).fromTo(".navContact", {
-    x: 200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }, ">-1.8").fromTo('.living-room-hero-text h4', {
-    opacity: 0,
-    y: 20
-  }, {
-    y: 0,
-    opacity: 1,
-    duration: .4,
-    // stagger:.2,
-    ease: 'power0.easeNone'
-  });
+  if (window.screen.width > 768) {
+    var timeline = gsap.timeline();
+    timeline.fromTo(".hamburger", {
+      x: -200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }).fromTo(".navContact", {
+      x: 200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }, ">-1.8").fromTo('.living-room-hero-text h4', {
+      opacity: 0,
+      y: 20
+    }, {
+      y: 0,
+      opacity: 1,
+      duration: .4,
+      // stagger:.2,
+      ease: 'power0.easeNone'
+    });
+  }
 };
 
 var contactEnter = function contactEnter() {
-  var timeline = gsap.timeline();
-  timeline.fromTo(".hamburger", {
-    x: -200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }).fromTo(".navContact", {
-    x: 200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }, ">-1.8");
+  if (window.screen.width > 768) {
+    var timeline = gsap.timeline();
+    timeline.fromTo(".hamburger", {
+      x: -200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }).fromTo(".navContact", {
+      x: 200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }, ">-1.8");
+  }
 };
 
 var diningRoomEnter = function diningRoomEnter() {
-  var timeline = gsap.timeline();
-  timeline.fromTo(".hamburger", {
-    x: -200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }).fromTo(".navContact", {
-    x: 200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }, ">-1.8").fromTo('.dining-room-hero-text h4', {
-    opacity: 0,
-    y: 20
-  }, {
-    y: 0,
-    opacity: 1,
-    duration: .4,
-    // stagger:.2,
-    ease: 'power0.easeNone'
-  });
+  if (window.screen.width > 768) {
+    var timeline = gsap.timeline();
+    timeline.fromTo(".hamburger", {
+      x: -200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }).fromTo(".navContact", {
+      x: 200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }, ">-1.8").fromTo('.dining-room-hero-text h4', {
+      opacity: 0,
+      y: 20
+    }, {
+      y: 0,
+      opacity: 1,
+      duration: .4,
+      // stagger:.2,
+      ease: 'power0.easeNone'
+    });
+  }
 };
 
 var bedroomEnter = function bedroomEnter() {
-  var timeline = gsap.timeline();
-  timeline.fromTo(".hamburger", {
-    x: -200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }).fromTo(".navContact", {
-    x: 200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }, ">-1.8").fromTo('.bedroom-hero-text h4', {
-    opacity: 0,
-    y: 20
-  }, {
-    y: 0,
-    opacity: 1,
-    duration: .4,
-    // stagger:.2,
-    ease: 'power0.easeNone'
-  });
+  if (window.screen.width > 768) {
+    var timeline = gsap.timeline();
+    timeline.fromTo(".hamburger", {
+      x: -200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }).fromTo(".navContact", {
+      x: 200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }, ">-1.8").fromTo('.bedroom-hero-text h4', {
+      opacity: 0,
+      y: 20
+    }, {
+      y: 0,
+      opacity: 1,
+      duration: .4,
+      // stagger:.2,
+      ease: 'power0.easeNone'
+    });
+  }
 };
 
 var singleProductEnter = function singleProductEnter() {
-  var timeline = gsap.timeline();
-  timeline.fromTo(".hamburger", {
-    x: -200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }).fromTo(".navContact", {
-    x: 200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }, ">-1.8");
+  if (window.screen.width > 768) {
+    var timeline = gsap.timeline();
+    timeline.fromTo(".hamburger", {
+      x: -200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }).fromTo(".navContact", {
+      x: 200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }, ">-1.8");
+  }
 };
 
 var emailConfirmationEnter = function emailConfirmationEnter() {
-  var timeline = gsap.timeline();
-  timeline.fromTo(".hamburger", {
-    x: -200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }).fromTo(".navContact", {
-    x: 200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }, ">-1.8");
+  if (window.screen.width > 768) {
+    var timeline = gsap.timeline();
+    timeline.fromTo(".hamburger", {
+      x: -200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }).fromTo(".navContact", {
+      x: 200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }, ">-1.8");
+  }
 };
 
 var faqsEnter = function faqsEnter() {
-  var timeline = gsap.timeline();
-  timeline.fromTo(".hamburger", {
-    x: -200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }).fromTo(".navContact", {
-    x: 200,
-    opacity: 0
-  }, {
-    x: 0,
-    opacity: 1,
-    delay: 0.5,
-    duration: 1.3
-  }, ">-1.8");
+  if (window.screen.width > 768) {
+    var timeline = gsap.timeline();
+    timeline.fromTo(".hamburger", {
+      x: -200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }).fromTo(".navContact", {
+      x: 200,
+      opacity: 0
+    }, {
+      x: 0,
+      opacity: 1,
+      delay: 0.5,
+      duration: 1.3
+    }, ">-1.8");
+  }
 }; //Scroll Magic Animation
 
 

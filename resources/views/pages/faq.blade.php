@@ -7,9 +7,9 @@
 <div class="otherPagesNav">
 
 </div>
-  <div class="row justify-content-center pt-4">
+  <div class="row justify-content-center pt-4 faq-container">
     <div class="col-md-8 ">
-        <div class="card">
+        <div class="card ">
             <div class="card-header">
               <h4 class="faq-title">Frequently Asked Questions</h4>
             </div>

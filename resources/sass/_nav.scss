@@ -131,11 +131,11 @@
 }
 @media (min-width:0px) and (max-width:370px){
     .navBar{
-        padding:0 10px;
+        padding:0 0px;
         .navLogo{
-           width:49%;
+           width:45%;
            height:1.1rem;
-        //    padding-left:1rem;
+           padding-left:1rem;
         }
         .hamburger{
             .line{
@@ -150,10 +150,10 @@
      
     }
      .navBar > div{
-      padding:0 0px;
+      padding:0 4px;
     }
     .navigation-menu{
-        width:60%;
+        width:80%;
        
         ul{
             padding:10rem 2rem;
