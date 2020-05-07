@@ -12745,6 +12745,10 @@ body {
     font-size: 1.4rem;
   }
 
+  .social-media-text p {
+    font-size: 0.9rem;
+  }
+
   .social-media-grid {
     display: flex;
     justify-content: center;
