@@ -38,6 +38,7 @@ body {
 .card-header {
   background-color: rgba(0, 0, 0, 0.781);
   color: white;
+  font-size: 1rem;
 }
 
 .form-control:focus {
@@ -48,4 +49,21 @@ body {
 
 .form-group input, .form-group textarea {
   font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+}
+
+@media (min-width: 0px) and (max-width: 370px) {
+  .card-header {
+    font-size: 0.9rem;
+  }
+  .form-group label {
+    font-size: 0.8rem;
+  }
+  .form-group input, .form-group textarea {
+    font-size: 0.8rem;
+  }
 }

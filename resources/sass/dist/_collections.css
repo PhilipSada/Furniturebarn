@@ -32,12 +32,12 @@
 }
 
 .living-room-hero-text {
-  background-color: rgba(128, 128, 128, 0.473);
+  background-color: rgba(0, 0, 0, 0.486);
   position: absolute;
   top: 7%;
   left: 0;
   height: 50vh;
-  width: 30%;
+  width: 50%;
   z-index: 2;
   padding: 0 1rem;
   text-align: center;
@@ -46,18 +46,18 @@
 .living-room-hero-text h4 {
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding-top: 8rem;
   letter-spacing: 1px;
 }
 
 .dining-room-hero-text {
-  background-color: rgba(128, 128, 128, 0.473);
+  background-color: rgba(0, 0, 0, 0.486);
   position: absolute;
   top: 7%;
   left: 0;
   height: 50vh;
-  width: 30%;
+  width: 50%;
   z-index: 2;
   padding: 0 1rem;
   text-align: center;
@@ -66,18 +66,18 @@
 .dining-room-hero-text h4 {
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding-top: 8rem;
   letter-spacing: 1px;
 }
 
 .bedroom-hero-text {
-  background-color: rgba(128, 128, 128, 0.473);
+  background-color: rgba(0, 0, 0, 0.486);
   position: absolute;
   top: 7%;
   left: 0;
   height: 50vh;
-  width: 30%;
+  width: 50%;
   z-index: 2;
   padding: 0 1rem;
   text-align: center;
@@ -86,7 +86,7 @@
 .bedroom-hero-text h4 {
   color: white;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding-top: 8rem;
   letter-spacing: 1px;
 }
@@ -139,4 +139,70 @@
 .product-section-title {
   text-align: center;
   padding-left: 2rem;
+}
+
+@media (min-width: 0px) and (max-width: 370px) {
+  .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 371px) and (max-width: 500px) {
+  .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 540px) {
+  .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 767px) {
+  .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+  .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 991px) {
+  .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1099px) {
+  .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1119px) {
+  .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1120px) and (max-width: 1199px) {
+  .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
+    font-size: 1.6rem;
+  }
 }

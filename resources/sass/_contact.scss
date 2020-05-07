@@ -1,13 +1,13 @@
 .contact-submit{
     text-decoration: none;
     color:white;
-    padding:0.5rem 2.5rem;
+    padding:0.5rem 2.3rem;
     background-color:rgba(0, 0, 0, 0.712);
-    border:1px solid rgba(0, 0, 0, 0.712);
+    border:1px solid transparent;
     transition:all .8s ease;
-    font-size:0.9rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight:400;
+    font-size:0.8rem;
+    // font-family: 'Roboto', sans-serif;
+    // font-weight:400;
     &:hover{
      background-color:rgba(0, 0, 0, 0.877);
      border:1px solid transparent;
@@ -21,31 +21,122 @@
    
 }
 @media (min-width: 371px) and (max-width: 500px) {
-     
+     .contact-submit{
+         font-size:0.7rem;
+         padding:0.5rem 2rem;
+     }
+     .contact-title{
+         font-size:1.1rem;
+         font-weight:700;
+     }
+     .contact-text{
+         font-size:0.9rem;
+     }
+     .contact-info{
+         font-size:0.9rem;
+     }
   
 }
 @media (min-width: 501px) and (max-width: 540px) {
     
-  
+    .contact-submit{
+        font-size:0.7rem;
+        padding:0.5rem 2rem;
+    }
+    .contact-title{
+        font-size:1.1rem;
+        font-weight:700;
+    }
+    .contact-text{
+        font-size:0.9rem;
+    }
+    .contact-info{
+        font-size:0.9rem;
+    }
 }
 @media (min-width: 541px) and (max-width: 767px) {
-    
+    .contact-submit{
+        font-size:0.7rem;
+        padding:0.5rem 2rem;
+    }
+    .contact-title{
+        font-size:1.1rem;
+        font-weight:700;
+    }
+    .contact-text{
+        font-size:0.9rem;
+    }
+    .contact-info{
+        font-size:0.9rem;
+    }
   
 }
   
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 900px) {
- 
+    .contact-submit{
+        font-size:0.7rem;
+        padding:0.5rem 2rem;
+    }
+    .contact-title{
+        font-size:1.1rem;
+        font-weight:700;
+    }
+    .contact-text{
+        font-size:0.9rem;
+    }
+    .contact-info{
+        font-size:0.9rem;
+    }
 }
 @media (min-width: 901px) and (max-width: 991px) {
-  
+    .contact-submit{
+        font-size:0.7rem;
+        padding:0.5rem 2rem;
+    }
+    .contact-title{
+        font-size:1.1rem;
+        font-weight:700;
+    }
+    .contact-text{
+        font-size:0.9rem;
+    }
+    .contact-info{
+        font-size:0.9rem;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1099px) {
-  
+    .contact-submit{
+        font-size:0.7rem;
+        padding:0.5rem 2rem;
+    }
+    .contact-title{
+        font-size:1.8rem;
+        font-weight:700;
+    }
+    .contact-text{
+        font-size:0.9rem;
+    }
+    .contact-info{
+        font-size:0.9rem;
+    }
 }
 @media (min-width: 1100px) and (max-width: 1119px) {
-   
+    .contact-submit{
+        font-size:0.7rem;
+        padding:0.5rem 2rem;
+    }
+    .contact-title{
+        font-size:1.8rem;
+        font-weight:700;
+    }
+    .contact-text{
+        font-size:0.9rem;
+    }
+    .contact-info{
+        font-size:0.9rem;
+    }
 }
 @media (min-width: 1120px) and (max-width: 1199px) {
    

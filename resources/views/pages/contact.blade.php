@@ -10,7 +10,7 @@
 <div class="pt-4 ml-5">
         <div class="row">
             <div class="col-md-6">
-            <h1>Get in touch</h1>
+            <h1 class="contact-title">Get in touch</h1>
             <p class="contact-text">If you have any enquiry or would like us to make furniture based on your specifications, 
                 please fill in the contact form or call us on the phone number given below
              </p>

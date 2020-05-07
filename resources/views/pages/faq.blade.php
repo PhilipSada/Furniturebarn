@@ -11,9 +11,9 @@
     <div class="col-md-8 ">
         <div class="card">
             <div class="card-header">
-              <h4>Frequently Asked Questions</h4>
+              <h4 class="faq-title">Frequently Asked Questions</h4>
             </div>
-            <div class="card-body">
+            <div class="card-body faq-body">
                 <h4>Can you manufacture furniture based on my design?</h4>
                  <p>Once, we have a look at your design, we would let you know if it is feasible or not but be rest assured that we have highly professional
                   and talented staff that can manufacture the furniture you want. For further details, please contact us and we would answer all your questions.
