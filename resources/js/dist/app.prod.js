@@ -1,1 +1,1 @@
-"use strict";require("./bootstrap"),require("./admin"),require("./barba-animations.js/pages"),require("./navigation-menu");
+"use strict";require("./bootstrap"),require("./admin"),require("./animations/pages"),require("./navigation-menu"),require("./preloader");

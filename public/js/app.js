@@ -38087,28 +38087,10 @@ $(document).ready(function () {
 
 /***/ }),
 
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
-__webpack_require__(/*! ./admin */ "./resources/js/admin.js"); // require('./scroll-magic-animations/pages');
-
-
-__webpack_require__(/*! ./barba-animations.js/pages */ "./resources/js/barba-animations.js/pages.js");
-
-__webpack_require__(/*! ./navigation-menu */ "./resources/js/navigation-menu.js");
-
-/***/ }),
-
-/***/ "./resources/js/barba-animations.js/pages.js":
-/*!***************************************************!*\
-  !*** ./resources/js/barba-animations.js/pages.js ***!
-  \***************************************************/
+/***/ "./resources/js/animations/pages.js":
+/*!******************************************!*\
+  !*** ./resources/js/animations/pages.js ***!
+  \******************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -38963,6 +38945,25 @@ barba.init({
 
 /***/ }),
 
+/***/ "./resources/js/app.js":
+/*!*****************************!*\
+  !*** ./resources/js/app.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+__webpack_require__(/*! ./admin */ "./resources/js/admin.js");
+
+__webpack_require__(/*! ./animations/pages */ "./resources/js/animations/pages.js");
+
+__webpack_require__(/*! ./navigation-menu */ "./resources/js/navigation-menu.js");
+
+__webpack_require__(/*! ./preloader */ "./resources/js/preloader.js");
+
+/***/ }),
+
 /***/ "./resources/js/bootstrap.js":
 /*!***********************************!*\
   !*** ./resources/js/bootstrap.js ***!
@@ -39073,6 +39074,22 @@ navLinks.forEach(function (link) {
       visibility: 'hidden'
     });
   });
+});
+
+/***/ }),
+
+/***/ "./resources/js/preloader.js":
+/*!***********************************!*\
+  !*** ./resources/js/preloader.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+window.addEventListener('load', function () {
+  var preload = document.querySelector('.pre-load-wrapper');
+  window.setTimeout(function () {
+    preload.classList.add('pre-load-finish');
+  }, 1000);
 });
 
 /***/ }),

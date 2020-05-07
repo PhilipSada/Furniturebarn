@@ -13,6 +13,13 @@
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     </head>
     <body data-barba="wrapper">
+        <div class="pre-load-wrapper">
+            <div class="pre-load-content">
+                <div class="pre-load-logo-container"><img src="/images/logo.png" class="pre-load-logo"></div>
+                <div class="pre-loading-spinner"></div>
+            </div>
+           
+        </div>
         <div class="loading-bg"></div>
         <nav>
             @include('includes/nav')

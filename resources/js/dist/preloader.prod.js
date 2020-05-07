@@ -1,0 +1,1 @@
+"use strict";window.addEventListener("load",function(){var e=document.querySelector(".pre-load-wrapper");window.setTimeout(function(){e.classList.add("pre-load-finish")},1e3)});

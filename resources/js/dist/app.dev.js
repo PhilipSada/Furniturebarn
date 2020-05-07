@@ -2,9 +2,10 @@
 
 require('./bootstrap');
 
-require('./admin'); // require('./scroll-magic-animations/pages');
+require('./admin');
 
-
-require('./barba-animations.js/pages');
+require('./animations/pages');
 
 require('./navigation-menu');
+
+require('./preloader');
