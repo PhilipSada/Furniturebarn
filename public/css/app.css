@@ -13632,6 +13632,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
 
   .single-product-image-container {
