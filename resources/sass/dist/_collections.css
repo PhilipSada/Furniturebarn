@@ -145,6 +145,19 @@
   .living-room-hero-text h4, .dining-room-hero-text h4, .bedroom-hero-text h4 {
     font-size: 1.1rem;
   }
+  .display-product-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 1rem;
+  }
+  .display-product-grid .product-button {
+    padding: 0.5rem 2rem;
+  }
+  .display-product-grid .product-button .product-link {
+    font-size: 0.8rem;
+  }
 }
 
 @media (min-width: 371px) and (max-width: 500px) {

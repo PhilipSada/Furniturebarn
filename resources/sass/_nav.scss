@@ -26,17 +26,12 @@
 
    
     .navLogo{
-        // background-color: black;
         width:15%;
         height:1.1rem;
         padding-left:1rem;
         
     }
     .linkLogo{
-        // letter-spacing:4px;
-        // font-weight:700;
-        // color:white;
-        // background-color:black;
         text-decoration:none;
         height:1rem;
     }
@@ -136,23 +131,42 @@
 }
 @media (min-width:0px) and (max-width:370px){
     .navBar{
+        padding:0 10px;
         .navLogo{
-           width:40%;
+           width:49%;
            height:1.1rem;
-           padding-left:1rem;
+        //    padding-left:1rem;
         }
         .hamburger{
             .line{
-                height:1px;
+                height:0.8px;
+                width:25px;
             }
         }
         .navContactLink{
-            font-size:0.8rem;
+            font-size:0.7rem;
         }
+        
      
     }
      .navBar > div{
       padding:0 0px;
+    }
+    .navigation-menu{
+        width:60%;
+       
+        ul{
+            padding:10rem 2rem;
+            li{
+                a{
+                    font-size:1.2rem;
+                    
+                }
+            }
+        }
+        .navigation-close{
+            font-size:0.8rem;
+        }
     }
    
 }

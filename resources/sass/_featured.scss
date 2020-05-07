@@ -67,6 +67,28 @@
     opacity:0;
 }
 @media (min-width:0px) and (max-width:370px){
+    .featured-text{
+        h1{
+            font-size:2.5rem;
+        }
+    }
+    .featured-collections-grid{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        margin:2rem 1rem;
+    }
+    .featured-collections-container{
+        height:80rem;
+    }
+    .featured-collections-image-container{
+        height:18rem;
+        width:15rem;
+    } 
+    .index-featured-container{
+        opacity:1;
+    }
    
 }
 @media (min-width: 371px) and (max-width: 500px) {
@@ -88,6 +110,9 @@
         height:20rem;
         width:22rem;
     } 
+    .index-featured-container{
+        opacity:1;
+    }
   
 }
 @media (min-width: 501px) and (max-width: 540px) {
@@ -109,6 +134,9 @@
         height:20rem;
         width:22rem;
     } 
+    .index-featured-container{
+        opacity:1;
+    }
   
 }
 @media (min-width: 541px) and (max-width: 767px) {
@@ -131,6 +159,9 @@
         height:20rem;
         width:22rem;
     } 
+    .index-featured-container{
+        opacity:1;
+    }
 }
   
 // Medium devices (tablets, 768px and up)
@@ -152,6 +183,9 @@
     .featured-collections-image-container{
         height:20rem;
         width:22rem;
+    }
+    .index-featured-container{
+        opacity:1;
     } 
 }
 @media (min-width: 901px) and (max-width: 991px) {
@@ -173,6 +207,9 @@
         height:18rem;
         width:22rem;
     } 
+    .index-featured-container{
+        opacity:1;
+    }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1099px) {
@@ -194,6 +231,9 @@
         height:20rem;
         width:22rem;
     } 
+    .index-featured-container{
+        opacity:1;
+    }
 }
 @media (min-width: 1100px) and (max-width: 1119px) {
     .featured-text{
@@ -214,6 +254,9 @@
         height:18rem;
         width:22rem;
     } 
+    .index-featured-container{
+        opacity:1;
+    }
    
 }
 @media (min-width: 1120px) and (max-width: 1199px) {
@@ -235,6 +278,7 @@
         height:20rem;
         width:22rem;
     } 
+  
 }
   
 // Extra large devices (large desktops, 1200px and up)

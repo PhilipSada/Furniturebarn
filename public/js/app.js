@@ -38400,37 +38400,49 @@ var runHomeScrollAnimation = function runHomeScrollAnimation() {
   }).setTween(tlAboutScroll).addTo(homeController); //featured Scroll animation
 
   var tlFeaturedScroll = new gsap.timeline();
-  tlFeaturedScroll.fromTo('.index-featured-container', {
-    opacity: 0
-  }, {
-    opacity: 1,
-    duration: 4
-  });
-  var featuredScene = new ScrollMagic.Scene({
-    triggerElement: '.index-featured-container',
-    triggerHook: 1,
-    duration: featuredCollections.offsetHeight
-  }).setTween(tlFeaturedScroll).addTo(homeController); //social media scroll animation
+
+  if (window.screen.width > 1200) {
+    tlFeaturedScroll.fromTo('.index-featured-container', {
+      opacity: 0
+    }, {
+      opacity: 1,
+      duration: 4
+    });
+    var featuredScene = new ScrollMagic.Scene({
+      triggerElement: '.index-featured-container',
+      triggerHook: 1,
+      duration: featuredCollections.offsetHeight
+    }).setTween(tlFeaturedScroll).addTo(homeController);
+  } else {
+    tlFeaturedScroll.kill();
+  } //social media scroll animation
+
 
   var tlSocialMediaScroll = new gsap.timeline();
-  tlSocialMediaScroll.fromTo('.left-media', {
-    x: '-200%'
-  }, {
-    x: 0,
-    ease: Expo.easeOut,
-    duration: 2
-  }).fromTo('.right-media', {
-    x: '200%'
-  }, {
-    x: 0,
-    ease: Expo.easeOut,
-    duration: 2
-  }, '>-1.8');
-  var socialMediaScene = new ScrollMagic.Scene({
-    triggerElement: '.social-media-grid',
-    triggerHook: 1,
-    duration: socialMediaGrid.offsetHeight
-  }).setTween(tlSocialMediaScroll).addTo(homeController); //.addIndicators can be added after the setTween for debugging purposes
+
+  if (window.screen.width > 1200) {
+    tlSocialMediaScroll.fromTo('.left-media', {
+      x: '-200%'
+    }, {
+      x: 0,
+      ease: Expo.easeOut,
+      duration: 2
+    }).fromTo('.right-media', {
+      x: '200%'
+    }, {
+      x: 0,
+      ease: Expo.easeOut,
+      duration: 2
+    }, '>-1.8');
+    var socialMediaScene = new ScrollMagic.Scene({
+      triggerElement: '.social-media-grid',
+      triggerHook: 1,
+      duration: socialMediaGrid.offsetHeight
+    }).setTween(tlSocialMediaScroll).addTo(homeController);
+  } else {
+    tlSocialMediaScroll.kill();
+  } //.addIndicators can be added after the setTween for debugging purposes 
+
 };
 
 barba.init({
