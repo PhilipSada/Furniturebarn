@@ -1,8 +1,8 @@
+// window.addEventListener('load', ()=>{
+//     const preload = document.querySelector('.pre-load-wrapper');
+//     preload.classList.add('pre-load-finish')
+//     window.setTimeout(()=>{
+//         preload.classList.add('pre-load-finish')
+//     }, 700);
+// });
 "use strict";
-
-window.addEventListener('load', function () {
-  var preload = document.querySelector('.pre-load-wrapper');
-  window.setTimeout(function () {
-    preload.classList.add('pre-load-finish');
-  }, 1000);
-});
