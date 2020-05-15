@@ -7,7 +7,7 @@
   <div class="otherPagesNav">
 
   </div>
-<div class="pt-4 ml-5 contact-container">
+<div class="pt-4 pl-5 contact-container">
         <div class="row">
             <div class="col-md-6">
             <h1 class="contact-title">Get in touch</h1>

@@ -132,6 +132,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin:0rem 0rem;
     }
     .single-product-image-container{
         width:100%;
@@ -161,14 +162,13 @@
 }
 @media (min-width:900px){
     .single-product-grid{
-        overflow-x: hidden !important;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-right:-4rem;
+        margin:0rem 0rem;
     }
-    .similar-product-grid{
-        overflow-x: hidden !important;
-    }
+   
     .single-product-image-container{
         width:100%;
     }
