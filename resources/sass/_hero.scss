@@ -74,8 +74,9 @@
   }
    
 }
-@media (min-width:0px) and (max-width:370px){
+@media (max-width:599px){
     .hero-container{
+        overflow-x: hidden !important;
         .hero-text{
             h2{
                 font-size:2.5rem;
@@ -100,39 +101,9 @@
   
    
 }
-@media (min-width: 371px) and (max-width: 500px) {
+@media (min-width:600px){
     .hero-container{
-        .hero-text{
-            h2{
-                font-size:3rem;
-            }
-        }
-        .additional-hero-text{
-            h4{
-                font-size:1rem;
-            }
-        }
-    }
   
-}
-@media (min-width: 501px) and (max-width: 540px) {
-    .hero-container{
-        .hero-text{
-            h2{
-                font-size:3rem;
-            }
-        }
-        .additional-hero-text{
-            h4{
-                font-size:1rem;
-            }
-        }
-    }
-  
-}
-@media (min-width: 541px) and (max-width: 767px) {
-    
-    .hero-container{
         .hero-text{
             h2{
                 font-size:3rem;
@@ -145,9 +116,7 @@
         }
     }
 }
-  
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 900px) {
+@media (min-width:900px){
     .hero-container{
         .hero-text{
             h2{
@@ -156,55 +125,12 @@
         }
         .additional-hero-text{
             h4{
-                font-size:1rem;
+                font-size:1.1rem;
             }
         }
     }
 }
-@media (min-width: 901px) and (max-width: 991px) {
-    .hero-container{
-        .hero-text{
-            h2{
-                font-size:3rem;
-            }
-        }
-        .additional-hero-text{
-            h4{
-                font-size:1rem;
-            }
-        }
-    }
-}
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1099px) {
-    .hero-container{
-        .hero-text{
-            h2{
-                font-size:3rem;
-            }
-        }
-        .additional-hero-text{
-            h4{
-                font-size:1rem;
-            }
-        }
-    }
-}
-@media (min-width: 1100px) and (max-width: 1119px) {
-    .hero-container{
-        .hero-text{
-            h2{
-                font-size:3rem;
-            }
-        }
-        .additional-hero-text{
-            h4{
-                font-size:1rem;
-            }
-        }
-    }
-}
-@media (min-width: 1120px) and (max-width: 1199px) {
+@media (min-width:1200px){
     .hero-container{
         .hero-text{
             h2{
@@ -213,38 +139,24 @@
         }
         .additional-hero-text{
             h4{
-                font-size:1rem;
+                font-size:1.2rem;
             }
         }
     }
 }
-  
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width:1500px){
     .hero-container{
         .hero-text{
             h2{
-                font-size:3.5rem;
+                font-size:4.1rem;
             }
         }
         .additional-hero-text{
             h4{
-                font-size:1rem;
-            }
-        }
-    }
- }
-@media (min-width: 1400px) and (max-width: 1500px) {
-    .hero-container{
-        .hero-text{
-            h2{
-                font-size:3.5rem;
-            }
-        }
-        .additional-hero-text{
-            h4{
-                font-size:1rem;
+                font-size:1.3rem;
             }
         }
     }
 }
+
+
