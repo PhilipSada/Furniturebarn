@@ -10936,6 +10936,7 @@ a.text-dark:focus {
   .about-container {
     overflow-x: hidden !important;
     margin: 1rem 2rem;
+    padding-top: 2rem;
   }
 
   .about-container .about-grid {
@@ -10954,7 +10955,7 @@ a.text-dark:focus {
   }
 
   .about-container .about-heading {
-    top: -3%;
+    top: -1%;
     padding-left: 1.5rem;
   }
 
