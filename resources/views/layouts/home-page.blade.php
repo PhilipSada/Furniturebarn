@@ -3,24 +3,26 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Furniturebarn</title>
         <meta name="description" content="website for a furniture manufacturing company">
-        <meta name="robots" content="follow,index,max-snippet:-1,max-video-preview:-1,max-image-preview:large">
+        {{-- <meta name="robots" content="follow,index,max-snippet:-1,max-video-preview:-1,max-image-preview:large"> --}}
         <meta name="image_src" content="https://furniturebarnng.com/images/preview.png">
         <meta name="image_url" content="https://furniturebarnng.com/images/preview.png">
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website">
-        <meta property="og:title" content="@yield('title')">
-        <meta property='og:image:secure_url' content="https://furniturebarnng.com/images/preview.png">        
+        <meta property="og:title" content="Furniturebarn">
+        <meta property='og:image' content="https://furniturebarnng.com/images/preview.png">        
         <meta property="og:description" content="website for a furniture manufacturing company">
         <meta property="og:url" content="https://furniturebarnng.com/">
         <meta property="og:site_name" content="Furniturebarn">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Furniturebarn">
-        <meta name="twitter:description" content="website">
-         <!-- CSRF Token -->
+        <meta name="twitter:description" content="website for a furniture manufacturing company">
+           <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
+
+        <title>Furniturebarn</title>
+       
+      
         <!-- Fonts -->
 
         <!-- Styles -->
