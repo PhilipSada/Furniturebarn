@@ -10,9 +10,14 @@
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website">
         <meta property="og:title" content="Furniturebarn">
-        <meta property='og:image' content="https://furniturebarnng.com/images/preview.png">        
+        <meta property="og:image" content="https://furniturebarnng.com/images/preview.png">        
+        <meta property="og:image:secure_url" content="https://furniturebarnng.com/images/preview.png">        
+        <meta property="og:image:type" content="image/png">        
+        <meta property="og:image:width" content="1897">        
+        <meta property="og:image:height" content="932">        
         <meta property="og:description" content="website for a furniture manufacturing company">
         <meta property="og:url" content="https://furniturebarnng.com/">
+        <meta property="og:secure_url" content="https://furniturebarnng.com/">
         <meta property="og:site_name" content="Furniturebarn">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Furniturebarn">
