@@ -12,7 +12,7 @@
         <meta property="og:locale" content="en_US">
         <meta property="og:type" content="website">
         <meta property="og:title" content="@yield('title')">
-        <meta prefix="og: http://ogp.me/ns#" property='og:image' content="https://furniturebarnng.com/images/preview.png">        
+        <meta property='og:image' content="https://furniturebarnng.com/images/preview.png">        
         <meta property="og:description" content="website for a furniture manufacturing company">
         <meta property="og:url" content="https://furniturebarnng.com/">
         <meta property="og:site_name" content="Furniturebarn">
