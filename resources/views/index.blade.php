@@ -1,6 +1,6 @@
 @extends('layouts.home-page')
 
-@section('title', 'home')
+@section('title', 'FurnitureBarn')
 @section('content')
 
 <main data-barba="container" data-barba-namespace="home">
