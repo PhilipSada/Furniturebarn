@@ -1,6 +1,6 @@
 @extends('layouts.home-page')
 
-@section('title',"{{$product->title}}")
+@section('title',$product->title)
 
 @section('content')
 <main data-barba="container" data-barba-namespace="single-product">
