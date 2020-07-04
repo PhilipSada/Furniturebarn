@@ -42,7 +42,7 @@
                 </p>
             </div>
             <div class="about-image-container">
-                <img src="/images/dining.png" class="about-image"/>
+                <img src="/images/dining.jpg" class="about-image"/>
             </div>
     </div>
     <div class="about-heading">
@@ -56,7 +56,7 @@
     <div class="featured-collections-grid">
         <div class="featured-content">
             <div class="featured-collections-image-container">
-                <a href="/living-room"> <img src="/images/sectional.png" class="featured-collections-image"/></a>
+                <a href="/living-room"> <img src="/images/sectional.jpg" class="featured-collections-image"/></a>
              </div>
              <div class="featured-collections-text">
                  <a href="/living-room">Living Room</a>
@@ -64,7 +64,7 @@
         </div>
        <div class="featured-content">
             <div class="featured-collections-image-container">
-                <a href="/dining-room"><img src="/images/dining1.png" class="featured-collections-image"/></a>
+                <a href="/dining-room"><img src="/images/dining1.jpg" class="featured-collections-image"/></a>
             </div>
             <div class="featured-collections-text">
                 <a href="/dining-room">Dining Room</a>
@@ -72,7 +72,7 @@
        </div>
        <div class="featured-content">
             <div class="featured-collections-image-container">
-                <a href="/bedroom"> <img src="/images/bed.png" class="featured-collections-image"/></a>
+                <a href="/bedroom"> <img src="/images/bed.jpg" class="featured-collections-image"/></a>
             </div>
             <div class="featured-collections-text">
                 <a href="/bedroom">Bedroom</a>
@@ -89,13 +89,13 @@
     </div>
     <div class="social-media-grid">
         <div class="social-media-image-container left-media">
-            <img src="/images/lroom2.png" class="social-media-image">
+            <img src="/images/lroom2.jpg" class="social-media-image">
         </div>
         <div class="social-media-image-container">
-            <img src="/images/lroom3.png" class="social-media-image">
+            <img src="/images/lroom3.jpg" class="social-media-image">
         </div>
         <div class="social-media-image-container right-media">
-            <img src="/images/lroom4.png" class="social-media-image">
+            <img src="/images/lroom4.jpg" class="social-media-image">
         </div>
     </div>
     
