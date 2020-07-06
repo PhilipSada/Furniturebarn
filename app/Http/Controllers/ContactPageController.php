@@ -48,7 +48,7 @@ class ContactPageController extends Controller
 
         ];
      
-        Mail::to($recipients)->send(new Contact($content, $attachment));
+        // Mail::to($recipients)->send(new Contact($content, $attachment));
 
         $request->session()->put('enquiry', 'enquiry-sent');
 
