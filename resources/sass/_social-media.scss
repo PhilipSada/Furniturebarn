@@ -226,7 +226,8 @@
      .social-media-grid{
         display:grid;
         grid-gap:0.7rem;
-        grid-template-columns:repeat(auto-fill, minmax(310px,1fr));
+        grid-template-columns: repeat( 3, 400px);
+        justify-content: center;
         margin:2rem 8rem;
         justify-items: center;
         

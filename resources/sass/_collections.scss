@@ -184,6 +184,10 @@
             font-size:1.8rem;
         }
     }
+    .display-product-grid{
+        grid-template-columns: repeat( 3, 400px);
+        justify-content: center;
+    }
 }
 
 

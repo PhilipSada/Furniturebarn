@@ -11271,10 +11271,11 @@ a.text-dark:focus {
 
   .featured-collections-grid {
     display: grid;
-    grid-row-gap: 3rem;
+    grid-row-gap: 5rem;
     grid-column-gap: 0.7rem;
-    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-    margin: 2rem 8rem;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
+    margin: 2rem 0rem;
     padding: 3rem 0rem;
   }
 
@@ -11748,7 +11749,7 @@ body {
   align-items: center;
   justify-content: space-between;
   font-family: 'Merriweather', serif;
-  background-color: rgba(0, 0, 0, 0.842);
+  background-color: rgba(0, 0, 0, 0.829);
 }
 
 .navBar .hamburger {
@@ -12259,7 +12260,8 @@ body {
   .social-media-grid {
     display: grid;
     grid-gap: 0.7rem;
-    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
     margin: 2rem 8rem;
     justify-items: center;
   }
@@ -12583,6 +12585,11 @@ body {
   .dining-room-hero-text h4,
   .bedroom-hero-text h4 {
     font-size: 1.8rem;
+  }
+
+  .display-product-grid {
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
   }
 }
 
